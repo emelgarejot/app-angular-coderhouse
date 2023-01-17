@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+/* ----------------------------------------------------------------------------------------------------- */
+/*  @ Tailwind files.
+/* ----------------------------------------------------------------------------------------------------- */
+
+@tailwind base;
+// Si esta habiliado afectado a tipo de letra y tamañoe h1 h2
+
+
+// @tailwind components;
+// si esta habilitado el div del contenedor del shred table no ocupada todo el espacio debido a la propiedad @wax-widt
+
+@tailwind utilities;

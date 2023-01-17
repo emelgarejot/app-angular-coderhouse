@@ -1,0 +1,10 @@
+<div class="flex justify-center mt-6">
+  <div class="grid grid-cols-5 gap-4">
+    <ng-container *ngFor="let product of products">
+      <app-product
+        [urlImage]="product.urlImage!"
+        [productDescription]="product.productDescription!"
+      ></app-product>
+    </ng-container>
+  </div>
+</div>
